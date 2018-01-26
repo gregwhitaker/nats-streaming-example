@@ -3,7 +3,7 @@
 
 An example of using [NATS](https://nats.io) for streaming messaging.
 
-This example contains a service that pushes 100 numbers to NATS streaming cluster named `test-cluster` and a stream named 
+This example contains a service that pushes 100 numbers to a NATS streaming cluster named `test-cluster` and a stream named 
 `numbers-stream`. Clients can subscribe to that stream and get all numbers that have been produced since the service started.
 
 ## Prerequisites
