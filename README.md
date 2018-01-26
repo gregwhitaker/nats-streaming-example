@@ -2,6 +2,12 @@
 
 An example of using [NATS](https://nats.io) for streaming messaging.
 
+## Prerequisites
+The examples require a local NATS streaming server to be running. To start a NATS streaming server as a Docker container run the following commands:
+
+    $ docker pull nats-streaming
+    $ docker run -p 4222:4222 -p 8222:8222 -d --name nats-streaming nats-streaming
+    
 ## Bugs and Feedback
 For bugs, questions and discussions please use the [Github Issues](https://github.com/gregwhitaker/nats-streaming-example/issues).
 
