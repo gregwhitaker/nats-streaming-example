@@ -1,0 +1,4 @@
+rootProject.name = 'nats-streaming-example'
+include 'streaming-client'
+include 'streaming-service'
+
