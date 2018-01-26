@@ -1,4 +1,5 @@
 # nats-streaming-example
+[![Build Status](https://travis-ci.org/gregwhitaker/nats-streaming-example.svg?branch=master)](https://travis-ci.org/gregwhitaker/nats-streaming-example)
 
 An example of using [NATS](https://nats.io) for streaming messaging.
 
